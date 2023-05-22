@@ -29,3 +29,10 @@ The Loader is stupid and just takes any information from the UART. If you Ctrl-C
 tool and try to restart, it will receive the "UPDATE" command (simple text) and use this as
 firmare. This is one why to brick the display.
 
+# Unbricking
+The only way is to use a debug interface for this MCU from 
+[www.nuvoton.com](https://www.nuvoton.com/tool-and-software/debugger-and-programmer/1-to-1-debugger-and-programmer/nu-link/)
+
+There are expensive and almost not available. Instead there are other vendors who probably create copies of those which are much
+cheaper and are available at: [Aliexpress](https://de.aliexpress.com/item/4000004051198.html?algo_pvid=8fdbb6b4-1035-4940-8d6b-c1fe656073c0&algo_exp_id=8fdbb6b4-1035-4940-8d6b-c1fe656073c0-47&pdp_npi=3%40dis%21EUR%219.12%218.66%21%21%21%21%21%402145294416836656660774185d07a9%2110000000006337836%21sea%21DE%210)
+
