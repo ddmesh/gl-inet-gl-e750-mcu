@@ -46,9 +46,9 @@ cheaper and are available at: [NU-Link-ME Aliexpress](https://de.aliexpress.com/
 
 <img src="images/IMG_20230522_094643.jpg" title="NU-Link-Me" width="100"> <img src="images/IMG_20230522_094657.jpg" title="NU-Link-Me" width="200"> <img src="images/IMG_20230522_094737.jpg" title="NU-Link-Me" width="200">
 
-5. Flash the new firmare [e750-mcu-V1.0.7-56a1cad7f0eb8318ebe3c3c46a4cf3ff.bin](e750-mcu-V1.0.7-56a1cad7f0eb8318ebe3c3c46a4cf3ff.bin)to "APROM" and ensure to set correct config register values.
+5. Flash the new firmare [e750-mcu-V1.0.7-56a1cad7f0eb8318ebe3c3c46a4cf3ff.bin](e750-mcu-V1.0.7-56a1cad7f0eb8318ebe3c3c46a4cf3ff.bin) to **APROM** and ensure to set correct config register values.\
 The flasher program will ask to erase the whole flash memory. This is the only way to unlock the flash (readout-protected).\
-The configuration register define from which flash area the MCU boots. Choose "APROM" (without the ISP to hopefully prevent further updates in future. not tested if this works).
+The **configuration register** define from which flash area the MCU boots. Choose **APROM** (without the ISP to hopefully prevent further updates in future. not tested if this works).
 6. Follow the instructions from the flasher tool.
 
 <img src="images/NuMicroICP-ProgrammingTool3.11.png" width="600">
