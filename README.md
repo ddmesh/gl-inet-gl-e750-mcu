@@ -11,7 +11,7 @@ tool vendor.
 This repo here just gives more information and provided the tools to repair the display.
 
 # MCU
-GL-e750 uses NUC029ZAN as the MCU. This contains two flash regions, "LDROM" and "APROM".\
+GL-e750 uses NUC029ZAN ([Datasheet](DS_NUC029xAN_xAE_Series_EN_Rev1.11.pdf)) as the MCU. This contains two flash regions, "LDROM" and "APROM".\
 A configuration register defines from which region the device boots. Each application may
 access and flash the other region, which allows to upgrade the "loader" or the "application"
 inplace.
@@ -34,7 +34,7 @@ The only way is to use a debug interface for this MCU from
 [www.nuvoton.com](https://www.nuvoton.com/tool-and-software/debugger-and-programmer/1-to-1-debugger-and-programmer/nu-link/)
 
 There are expensive and almost not available. Instead there are other vendors who probably create copies of those which are much
-cheaper and are available at: [Aliexpress](https://de.aliexpress.com/item/4000004051198.html?algo_pvid=8fdbb6b4-1035-4940-8d6b-c1fe656073c0&algo_exp_id=8fdbb6b4-1035-4940-8d6b-c1fe656073c0-47&pdp_npi=3%40dis%21EUR%219.12%218.66%21%21%21%21%21%402145294416836656660774185d07a9%2110000000006337836%21sea%21DE%210)
+cheaper and are available at: [NU-Link-ME Aliexpress](https://de.aliexpress.com/item/4000004051198.html?algo_pvid=8fdbb6b4-1035-4940-8d6b-c1fe656073c0&algo_exp_id=8fdbb6b4-1035-4940-8d6b-c1fe656073c0-47&pdp_npi=3%40dis%21EUR%219.12%218.66%21%21%21%21%21%402145294416836656660774185d07a9%2110000000006337836%21sea%21DE%210)
 
 1. Download flashing tool [NuMicro ICP Programming Tool 3.11.7470r.exe](https://www.nuvoton.com/resource-download.jsp?tp_GUID=SW1720200221181328)
 2. Install this tool and the USB driver
