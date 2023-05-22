@@ -53,5 +53,12 @@ The **configuration register** define from which flash area the MCU boots. Choos
 
 <img src="images/NuMicroICP-ProgrammingTool3.11.png" width="600">
 
-
+# Images
+<img title="" src="images/1-gl-e750-top.jpg" width="500">
+<img title="" src="images/2-gl-e750-bottom.jpg" width="500">
+<img title="" src="images/3-gl-e750-open1.jpg" width="500">
+<img title="" src="images/4-gl-e750-open2.jpg" width="500">
+<img title="" src="images/5-gl-e750-disconnect-display.jpg" width="500">
+<img title="" src="images/6-gl-e750-remove-cover.jpg" width="500">
+<img title="" src="images/7-gl-e750-connection.jpg" width="500">
 
