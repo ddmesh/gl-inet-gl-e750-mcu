@@ -36,3 +36,12 @@ The only way is to use a debug interface for this MCU from
 There are expensive and almost not available. Instead there are other vendors who probably create copies of those which are much
 cheaper and are available at: [Aliexpress](https://de.aliexpress.com/item/4000004051198.html?algo_pvid=8fdbb6b4-1035-4940-8d6b-c1fe656073c0&algo_exp_id=8fdbb6b4-1035-4940-8d6b-c1fe656073c0-47&pdp_npi=3%40dis%21EUR%219.12%218.66%21%21%21%21%21%402145294416836656660774185d07a9%2110000000006337836%21sea%21DE%210)
 
+1. Download flashing tool [NuMicro ICP Programming Tool 3.11.7470r.exe](https://www.nuvoton.com/resource-download.jsp?tp_GUID=SW1720200221181328)
+2. Install this tool and the USB driver
+3. Build a small adapter with Pull-UP resistores of 100k for CLK and DAT.
+![img](images/connection.png)
+4. Connect GL-Inet MCU (nuc029ZAN). The images below show how to open the GL-Inet and locate the connectors.
+5. Flash the new firmare [e750-mcu-V1.0.7-56a1cad7f0eb8318ebe3c3c46a4cf3ff.bin](e750-mcu-V1.0.7-56a1cad7f0eb8318ebe3c3c46a4cf3ff.bin)to "APROM" and ensure to set correct config register values.
+The flasher program will ask to erase the whole flash memory. This is the only way to unlock the flash (readout-protected).\
+The configuration register define from which flash area the MCU boots. Choose "APROM" (without the ISP to hopefully prevent further updates in future. not tested if this works).
+6. Follow the instructions from the flasher tool.
