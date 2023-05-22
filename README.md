@@ -51,6 +51,7 @@ The flasher program will ask to erase the whole flash memory. This is the only w
 The configuration register define from which flash area the MCU boots. Choose "APROM" (without the ISP to hopefully prevent further updates in future. not tested if this works).
 6. Follow the instructions from the flasher tool.
 
+<img src="images/NuMicroICP-ProgrammingTool3.11.png" width="600">
 
 
 
