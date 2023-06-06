@@ -27,7 +27,7 @@ the application from LDROM will be loaded. This loader application then expectes
 from GL-INET (openwrt) via UART. But there is absolutely no check for correct data. 
 The Loader is stupid and just takes any information from the UART. If you Ctrl-C the update-mcu
 tool and try to restart, it will receive the "UPDATE" command (simple text) and use this as
-firmare. This is one why to brick the display.
+firmare. This is one way to brick the display.
 
 # Unbricking
 The only way is to use a debug interface for this MCU from 
