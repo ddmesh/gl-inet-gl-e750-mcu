@@ -40,6 +40,8 @@ cheaper and are available at: [NU-Link-ME Aliexpress](https://de.aliexpress.com/
 2. Install this tool and the USB driver
 3. Build a small adapter with Pull-UP resistores of 100k for CLK and DAT.
 
+**Note**: When the Tool is started it might ask you to update the firmware of the NuMicro adapter. This is safe to do. The firmware is accepted and runs without any issues.
+
 ![img](images/connection.png)
 
 4. Connect GL-Inet MCU (nuc029ZAN). The images below show how to open the GL-Inet and locate the connectors.
